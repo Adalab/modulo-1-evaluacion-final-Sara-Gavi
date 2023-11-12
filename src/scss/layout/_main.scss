@@ -1,0 +1,142 @@
+
+.topic-section{
+    padding: 40px 15px;
+
+}
+
+.text-topic{
+    color: #8ccbea;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title-topic{
+    margin-top: 15px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.paragraph-topic{
+    color: #4a4a4a;
+    line-height: 1.67;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.btn-topic{
+    width: 76px;
+    height: 45px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #f26002;
+    border-radius: 20px;
+}
+
+.btn-text{
+    text-decoration: none;
+    color: #f26002;
+    font-size: 20px;
+    font-weight:500;
+}
+.btn-topic:hover{
+    border: 3px solid #304268;
+}
+.btn-text:hover{
+    color: #304268;
+}
+
+.reasons-section{
+    background-color: #eff9ff;
+    display: grid;
+    gap: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px 60px;
+}
+
+.article-reasons{
+    padding: 0 70px;
+}
+.title-reasons{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.article-title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.70;
+    font-family: 'Roboto Slab', serif;
+}
+
+.paragraph-article{
+    line-height: 1.67;
+    font-size: 18px;
+}
+
+.btn-reasons{
+    width: 184px;
+    height: 45px;
+    background-color: #f26002;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.btn-reasons:hover{
+    background-color: #1976b7;
+    color:#1976b7;
+}
+
+
+.btn-reasons-text{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight:500;
+}
+
+
+
+@media (min-width:768px){
+
+    .reasons-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 45px;
+        padding: 30px 40px 60px;
+    }
+    .article-reasons{
+        padding:0;
+    }
+    .title-reasons{
+        grid-column: span 3;
+        text-align: center;
+    }
+    .btn-reasons{
+        grid-column: span 3;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .topic-section{
+        padding: 40px 39px;
+    }
+
+}
+
+@media (min-width:1200px){
+.topic-section{
+    margin: 0 auto;
+    width: 730px;}
+}
