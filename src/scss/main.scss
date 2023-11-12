@@ -61,6 +61,7 @@ body{
 }
 
 .hero-title{
+    font-family: 'Roboto Slab', serif;;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
@@ -69,6 +70,7 @@ body{
     font-style: normal;
     line-height: 1.31;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .hero-title::first-line{
@@ -115,6 +117,7 @@ body{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .paragraph-topic{
@@ -164,12 +167,14 @@ body{
 .title-reasons{
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Roboto Slab', serif;
 }
 
 .article-title{
     font-size: 18px;
     font-weight: bold;
     line-height: 1.70;
+    font-family: 'Roboto Slab', serif;
 }
 
 .paragraph-article{
@@ -303,11 +308,9 @@ body{
 
     .footer-info{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: row-reverse;
-        margin-top: 45px;
-        
-        gap:40px;
+        text-align: left;
     }
 
     .menu-footer{
@@ -320,10 +323,11 @@ body{
     .footer-copy{
         padding: 0;
         margin-right: 40px;
+        text-align: left;
     }
 
     .social-menu{
-        margin-left: 40px;
+        margin-left: 200px;
     }
 }
 
