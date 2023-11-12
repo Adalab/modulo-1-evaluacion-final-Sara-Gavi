@@ -13,10 +13,10 @@
     box-sizing: border-box;
 }
 .menu-footer{
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 .nav-menu{
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     list-style: none;
 }
 .social-menu{
@@ -25,22 +25,22 @@
 .nav-menu a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     line-height: 1.88;
 }
 .social-menu a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     line-height: 1.88;
 }
 
 .btn-footer{
     background-color:white;
-    width: 45px;
-    height: 45px;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 50%;
     text-align: center;
     transform: translateY(-50%);
@@ -55,11 +55,11 @@
     border: 3px solid #f26002;
 }
 .footer-copy{
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin-top: 3rem;
+    margin-bottom: 4.5rem;
     color: white;
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 1.4rem;
+    line-height: 3rem;
 }
 
 @media (min-width:768px){
@@ -80,12 +80,12 @@
     }
     .footer-copy{
         padding: 0;
-        margin-right: 40px;
+        margin-right: 4rem;
         text-align: left;
     }
 
     .social-menu{
-        margin-left: 200px;
+        margin-left: 20rem;
     }
 }
 
@@ -99,14 +99,14 @@
         text-align: left;
     }
     .menu-footer{
-        margin-left: 40px;
+        margin-left: 4rem;
     }
     .social-menu{
-        margin-left: 100px;
+        margin-left: 10rem;
     }
 
     .btn-topic{
-        width: 106px;
+        width: 10.6rem;
     }
 
 }

@@ -15,8 +15,8 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 44px;
-    height: 44px;
+    width: 4.4rem;
+    height: 4.4rem;
     background-color: #1976b7;
     cursor: pointer;
     display: flex;
@@ -31,12 +31,12 @@
 
 
 .hero-container{
-    padding: 15px;
+    padding: 1.5rem;
     text-align: center;
 }
 
 .hero-content{
-    margin-top: 200px;
+    margin-top: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +46,7 @@
 .hero-title{
     font-family: 'Roboto Slab', serif;;
     text-align: center;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: bold;
     color: white;
     font-stretch: normal;
@@ -61,20 +61,20 @@
 }
 
 .hero-paragraph{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: white;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .hero-scroll{
-    width: 44px;
-    height: 44px;
+    width: 4.4rem;
+    height: 4.4rem;
     background-color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 4.5rem;
     border-radius: 50%;
 }
 
@@ -88,15 +88,15 @@
 @media (min-width:768px){
 
     .hero-title{
-        font-size: 80px;
-        line-height: 106px;
+        font-size: 8rem;
+        line-height: 10.6rem;
     }
 
     .hero-paragraph{
-        font-size: 24px;
+        font-size: 2.4rem;
     }
     .hero-content{
-        margin-top: 150px;
+        margin-top: 15rem;
     }
 
 }
@@ -104,13 +104,13 @@
 @media (min-width:1200px){
 
     .hero-title{
-        font-size: 100px;
-        line-height: 132px;
+        font-size: 10rem;
+        line-height: 13.2rem;
     }
     .hero-paragraph{
-        font-size: 24px;
+        font-size: 2.4rem;
     }
     .hero-content{
-        margin-top: 150px;
+        margin-top: 15rem;
     }
 }
