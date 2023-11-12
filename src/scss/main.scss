@@ -17,7 +17,7 @@ body{
 }
 
 .hero {
-    background-image: url(../../public/images/cover.jpg);
+    background-image: url("../../public/images/cover.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -315,7 +315,7 @@ body{
 
     .menu-footer{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 0;
         margin-top: 0;
         
@@ -333,7 +333,7 @@ body{
 
 @media (min-width:1200px){
 
- .hero-title{
+    .hero-title{
         font-size: 100px;
         line-height: 132px;
     }
@@ -346,6 +346,23 @@ body{
     .topic-section{
         margin: 0 auto;
         width: 730px;
+    }
+
+    .footer-info{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+    .menu-footer{
+        margin-left: 40px;
+    }
+    .social-menu{
+        margin-left: 100px;
+    }
+
+    .btn-topic{
+        width: 106px;
     }
 
 }
