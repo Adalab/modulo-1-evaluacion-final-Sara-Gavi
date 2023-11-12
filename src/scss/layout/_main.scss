@@ -1,16 +1,15 @@
 
-.topic-section{
+.topic{
     padding: 4rem 1.5rem;
-
 }
 
-.text-topic{
+.topic__text{
     color: #8ccbea;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.title-topic{
+.topic__title{
     margin-top: 1.5rem;
     color: black;
     font-size: 2.4rem;
@@ -19,14 +18,14 @@
     font-family: 'Roboto Slab', serif;
 }
 
-.paragraph-topic{
+.topic__paragraph{
     color: #4a4a4a;
     line-height: 1.67;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
 
-.btn-topic{
+.topic__btn{
     width: 7.6rem;
     height: 4.5rem;
     cursor: pointer;
@@ -37,20 +36,20 @@
     border-radius: 2rem;
 }
 
-.btn-text{
+.btn__text{
     text-decoration: none;
     color: #f26002;
     font-size: 2rem;
     font-weight:500;
 }
-.btn-topic:hover{
+.topic__btn:hover{
     border: 3px solid #304268;
 }
-.btn-text:hover{
+.btn__text:hover{
     color: #304268;
 }
 
-.reasons-section{
+.reasons{
     background-color: #eff9ff;
     display: grid;
     gap: 4.5rem;
@@ -60,28 +59,28 @@
     padding: 3rem 1.5rem 6rem;
 }
 
-.article-reasons{
+.reasons__article{
     padding: 0 7rem;
 }
-.title-reasons{
+.reasons__title{
     font-size: 2.4rem;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
 }
 
-.article-title{
+.article__title{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.70;
     font-family: 'Roboto Slab', serif;
 }
 
-.paragraph-article{
+.article__paragraph{
     line-height: 1.67;
     font-size: 1.8rem;
 }
 
-.btn-reasons{
+.reasons__btn{
     width: 18.4rem;
     height: 4.5rem;
     background-color: #f26002;
@@ -93,13 +92,13 @@
     cursor: pointer;
 }
 
-.btn-reasons:hover{
+.reasons__btn:hover{
     background-color: #1976b7;
     color:#1976b7;
 }
 
 
-.btn-reasons-text{
+.reasons__btn__text{
     text-decoration: none;
     color: white;
     font-size: 2rem;
@@ -110,33 +109,37 @@
 
 @media (min-width:768px){
 
-    .reasons-section{
+    .reasons{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 3rem;
         row-gap: 4.5rem;
         padding: 3rem 4rem 6rem;
     }
-    .article-reasons{
+    .reasons__article{
         padding:0;
     }
-    .title-reasons{
+    .reasons__title{
         grid-column: span 3;
         text-align: center;
     }
-    .btn-reasons{
+    .reasons__btn{
         grid-column: span 3;
         text-align: center;
         margin-top: 20px;
     }
-    .topic-section{
+    .topic{
         padding: 4rem 3.9rem;
     }
 
 }
 
 @media (min-width:1200px){
-.topic-section{
-    margin: 0 auto;
-    width: 73rem;}
+  .topic{
+      margin: 0 auto;
+      width: 73rem;}
 }
+  .topic__btn{
+      width: 10.6rem;
+}
+

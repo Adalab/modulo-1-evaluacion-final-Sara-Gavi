@@ -30,12 +30,12 @@
 }
 
 
-.hero-container{
+.hero__container{
     padding: 1.5rem;
     text-align: center;
 }
 
-.hero-content{
+.hero__content{
     margin-top: 20rem;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.hero-title{
+.hero__title{
     font-family: 'Roboto Slab', serif;;
     text-align: center;
     font-size: 6rem;
@@ -56,17 +56,17 @@
     text-transform: uppercase;
 }
 
-.hero-title::first-line{
+.hero__title::first-line{
     word-spacing: 100vw;
 }
 
-.hero-paragraph{
+.hero__paragraph{
     font-size: 1.6rem;
     color: white;
     margin-top: 1rem;
 }
 
-.hero-scroll{
+.hero__scroll{
     width: 4.4rem;
     height: 4.4rem;
     background-color: white;
@@ -78,7 +78,7 @@
     border-radius: 50%;
 }
 
-.hero-scroll:hover{
+.hero__scroll:hover{
     transition: all 0.3s ease;
     transform: scale(1.1);
 }
@@ -87,15 +87,15 @@
 
 @media (min-width:768px){
 
-    .hero-title{
+    .hero__title{
         font-size: 8rem;
         line-height: 10.6rem;
     }
 
-    .hero-paragraph{
+    .hero__paragraph{
         font-size: 2.4rem;
     }
-    .hero-content{
+    .hero__content{
         margin-top: 15rem;
     }
 
@@ -103,14 +103,14 @@
 
 @media (min-width:1200px){
 
-    .hero-title{
+    .hero__title{
         font-size: 10rem;
         line-height: 13.2rem;
     }
-    .hero-paragraph{
+    .hero__paragraph{
         font-size: 2.4rem;
     }
-    .hero-content{
+    .hero__content{
         margin-top: 15rem;
     }
 }
