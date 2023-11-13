@@ -23,7 +23,7 @@
         justify-content: center;
         
         &:hover{
-        background-color: rgb(254, 182, 49);
+        background-color: $primary-brand-color;
     }
   }
 }
@@ -40,11 +40,11 @@
     align-items: center;
     
     &__title{
-    font-family: 'Roboto Slab', serif;;
+    font-family: $heading-font;
     text-align: center;
     font-size: 4.2rem;
     font-weight: bold;
-    color: white;
+    color: $heading1-color;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.31;
@@ -57,7 +57,7 @@
 }
     &__paragraph{
       font-size: 1.6rem;
-      color: white;
+      color: $heading1-color;
       margin-top: 1rem;}
       
     &__scroll{

@@ -9,11 +9,11 @@
    }
     &__title{
       margin-top: 1.5rem;
-      color: black;
+      color: $heading2-color;
       font-size: 2.4rem;
       font-weight: bold;
       margin-bottom: 1.5rem;
-      font-family: 'Roboto Slab', serif;
+      font-family: $heading-font;
    }
     &__paragraph{
       color: #4a4a4a;
@@ -28,22 +28,22 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border: 3px solid #f26002;
+      border: 3px solid $primary-brand-color;
       border-radius: 2rem;
     }
 }
 
 .btn__text{
     text-decoration: none;
-    color: #f26002;
+    color: $primary-brand-color;
     font-size: 2rem;
     font-weight:500;
 }
 .topic__btn:hover{
-    border: 3px solid #304268;
+    border: 3px solid $secondary-brand-color;
 }
 .btn__text:hover{
-    color: #304268;
+    color: $secondary-brand-color;
 }
 
 .reasons{
@@ -62,14 +62,14 @@
 .reasons__title{
     font-size: 2.4rem;
     font-weight: bold;
-    font-family: 'Roboto Slab', serif;
+    font-family: $heading-font;
 }
 
 .article__title{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.70;
-    font-family: 'Roboto Slab', serif;
+    font-family: $heading-font;
 }
 
 .article__paragraph{
@@ -80,7 +80,7 @@
 .reasons__btn{
     width: 18.4rem;
     height: 4.5rem;
-    background-color: #f26002;
+    background-color: $primary-brand-color;
     border-radius: 3rem;
     align-items: center;
     justify-content: center;
@@ -90,8 +90,8 @@
 }
 
 .reasons__btn:hover{
-    background-color: #1976b7;
-    color:#1976b7;
+    background-color: $secondary-brand-color;
+    color:$secondary-brand-color;
 }
 
 

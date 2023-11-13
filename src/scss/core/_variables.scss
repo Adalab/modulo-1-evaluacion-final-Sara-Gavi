@@ -1,1 +1,17 @@
 
+/*Branding-colors*/
+
+$primary-brand-color: #f26002;
+$secondary-brand-color: #304268;
+$heading1-color: #ffffff;
+$heading2-color: #000000;
+$heading3-color: #000000;
+
+/*Fonts*/
+
+$font-primary:'Roboto', sans-serif;
+$heading-font:'Roboto Slab', serif;
+
+body{
+    font-family: $font-primary;
+}
