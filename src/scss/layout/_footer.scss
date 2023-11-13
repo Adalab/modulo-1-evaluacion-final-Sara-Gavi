@@ -24,14 +24,14 @@
 }
 .menu__nav a{
     text-decoration: none;
-    color: white;
+    color: $menu-color;
     font-size: 1.6rem;
     text-transform: uppercase;
     line-height: 1.88;
 }
 .menu__social a{
     text-decoration: none;
-    color: white;
+    color: $menu-color;
     font-size: 1.6rem;
     text-transform: uppercase;
     line-height: 1.88;
@@ -52,7 +52,7 @@
 }
 
 .footer__btn:hover{
-    border: 3px solid #f26002;
+    border: 3px solid $primary-brand-color;
 }
 .footer__copy{
     margin-top: 3rem;
@@ -69,6 +69,7 @@
         justify-content: space-around;
         flex-direction: row-reverse;
         text-align: left;
+        align-items: first baseline;
     }
 
     .info__menu{
@@ -80,6 +81,7 @@
     }
     .footer__copy{
         padding: 0;
+        margin-top: 0;
         margin-right: 4rem;
         text-align: left;
     }
@@ -97,6 +99,7 @@
         justify-content: center;
         flex-direction: row-reverse;
         text-align: left;
+        align-items: first baseline;
     }
     .menu__nav{
         margin-left: 4rem;

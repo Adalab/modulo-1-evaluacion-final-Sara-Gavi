@@ -126,7 +126,6 @@
     .topic{
         padding: 4rem 3.9rem;
     }
-
 }
 
 @media (min-width:1200px){
@@ -134,9 +133,22 @@
         margin: 0 auto;
         width: 73rem;
     }
-
+    .topic__title{
+        font-size: 3.2rem;
+    }
     .topic__btn{
        width: 10.6rem;
+    }
+    .reasons__title{
+        grid-column: span 3;
+        text-align: center;
+        font-size: 3.2rem;
+    }
+    .article__title{
+        font-size: 2.4rem;
+    }
+    .article__paragraph{
+        font-size: 2rem;
     }
 }
 

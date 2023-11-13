@@ -47,7 +47,7 @@ A continuación, se presentan capturas de pantalla de la landing page **Anonymou
   - Implementación de una estructura de ficheros y carpetas adecuada para un proyecto web.
 
 - **Uso de Starter Kit:**
-  - Implementación del Starter Kit para organizar el código HTML y Sass en distintos ficheros.
+  - Implementación del Starter Kit como plantilla para organizar el código HTML y Sass en distintos ficheros.
 
 - **Control de Versiones:**
   - Uso de control de versiones con ramas para gestionar de manera efectiva el desarrollo del proyecto.

@@ -1,6 +1,6 @@
 
 .hero {
-    background-image: url("../../public/images/cover.jpg");
+    background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -73,7 +73,7 @@
     
        &:hover{
         transition: all 0.3s ease;
-        transform: scale(1.1);
+        transform: scale(1.3);
       }
    }
 }
