@@ -3,9 +3,9 @@
 **Anonymous Proxy Coworking** es mucho más que un espacio de trabajo. Es un lugar de encuentro con personas que buscan aprender, cambiar, conocerse, vivir nuevas experiencias y continuar buscando libertad en sus vidas. Nos dirigimos a personas que:
 
 - Les gusta explorar el mundo y trabajar desde cualquier lugar.
-- Están interesados en el autoconocimiento: aquí, el desarrollo personal es tan crucial como el desarrollo profesional.
+- Están interesadas en el autoconocimiento: el desarrollo personal es tan crucial como el desarrollo profesional.
 - Desean vivir una vida más libre y con una mentalidad abierta.
-- Son emprendedores, nómadas digitales, escritores, terapeutas, programadores: profesionales que comparten una mentalidad innovadora.
+- Son emprendedoras, nómadas digitales, escritoras, terapeutas, programadoras: profesionales que comparten una mentalidad innovadora.
 
 ## ¿Qué Ofrecemos?
 
@@ -66,7 +66,7 @@ A continuación, se presentan capturas de pantalla de la landing page **Anonymou
   - Desarrollo de código Sass con sintaxis correcta y una estructura bien organizada.
 
 - **Características de Sass:**
-  - Implementación de características de Sass, como variables, anidación y el uso de parciales.
+  - Implementación de características de Sass, como variables, anidación de algunas secciones y el uso de parciales.
 
 - **Uso Intensivo de Selectores de Clase:**
   - Aplicación de CSS que utiliza selectores de clase de manera efectiva.
