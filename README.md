@@ -25,13 +25,13 @@ Descubre un coworking donde el trabajo se encuentra con la comunidad, donde las 
 
 ## 2. ¡Vamos con la landing page!
 
-A continuación, se presentan capturas de pantalla de la landing page **Anonymous Proxy** en diferentes dispositivos, mostrando su diseño responsive y su adaptación a diversas pantallas.
+A continuación, se presentan capturas de pantalla de la landing page **Anonymous Proxy** en diferentes dispositivos, mostrando su diseño responsive y su adaptación a diversas pantallas (móvil, tablet y desktop).
 
 ### Escritorio
 
 ![Captura de Pantalla - Escritorio](./public/images/Desktop-Anonymous.png)
 
-### Dispositivo Móvil
+### Móvil
 
 ![Captura de Pantalla - Móvil](./public/images/Móvil-Anonymous.png)
 
